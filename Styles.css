@@ -1,0 +1,26 @@
+#parent{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "rules"
+    "start";
+    grid-template-columns: 1fr;
+}
+
+#header{
+    grid-area: header;
+    grid-column: 1;
+    text-align: center;
+}
+
+#rules{
+    grid-area: rules;
+    grid-column: 1;
+    text-align: center;
+}
+
+#start{
+    grid-area: start;
+    grid-column: 1;
+    text-align: center;
+}
